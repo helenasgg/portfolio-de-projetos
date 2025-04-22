@@ -1,0 +1,122 @@
+]<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Flores e suas Histórias</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .flor {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .flor:hover {
+            transform: scale(1.05);
+        }
+        .flor img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .flor h3 {
+            background-color: #4CAF50;
+            color: white;
+            margin: 0;
+            padding: 10px;
+            font-size: 1.2em;
+        }
+        .descricao {
+            padding: 15px;
+        }
+        .descricao p {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Catálogo de Flores e suas Histórias</h1>
+    <p>Explore a beleza e o significado de flores ao redor do mundo</p>
+</header>
+
+<div class="container">
+    <!-- Rosa -->
+    <div class="flor">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Rosa_Red_Chateau01.jpg" alt="Rosa">
+        <div class="descricao">
+            <h3>Rosa</h3>
+            <p><strong>Origem:</strong> Ásia, cultivada há mais de 5.000 anos.</p>
+            <p><strong>História:</strong> Símbolo de amor e paixão, a rosa tem sido apreciada desde a Antiguidade. Civilizações como a egípcia, babilônica e assíria já utilizavam rosas em banhos de imersão. Fósseis de rosas datam de 35 milhões de anos.</p>
+        </div>
+    </div>
+
+    <!-- Girassol -->
+    <div class="flor">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Sunflower_sky_backdrop.jpg" alt="Girassol">
+        <div class="descricao">
+            <h3>Girassol</h3>
+            <p><strong>Origem:</strong> América Central.</p>
+            <p><strong>História:</strong> O nome científico "Helianthus annuus" significa "flor do sol". Essa flor é conhecida por sempre se orientar em direção ao sol, simbolizando energia e vitalidade.</p>
+        </div>
+    </div>
+
+    <!-- Orquídea -->
+    <div class="flor">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Orchidaceae_orquidea.jpg" alt="Orquídea">
+        <div class="descricao">
+            <h3>Orquídea</h3>
+            <p><strong>Origem:</strong> Diversas regiões tropicais.</p>
+            <p><strong>História:</strong> Com cerca de 24 mil espécies, as orquídeas têm fascinado os humanos por mais de dois mil e quinhentos anos. Na China antiga, eram associadas às festas da primavera e utilizadas para expulsar influências perniciosas.</p>
+        </div>
+    </div>
+
+    <!-- Camélia -->
+    <div class="flor">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Camellia_japonica_%28flower%29.jpg" alt="Camélia">
+        <div class="descricao">
+            <h3>Camélia</h3>
+            <p><strong>Origem:</strong> Japão, China e Coreia.</p>
+            <p><strong>História:</strong> Além de sua beleza, a camélia tornou-se símbolo do movimento abolicionista brasileiro no final do século XIX.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Catálogo de Flores. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
